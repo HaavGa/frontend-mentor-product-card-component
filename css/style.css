@@ -108,6 +108,7 @@ h1 {
 .btn:hover,
 btn:active {
   background-color: var(--color-secondary-900);
+  cursor: pointer;
 }
 
 .btn a {
