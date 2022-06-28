@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  --color-primary-500: hsl(158, 36%, 37%);
+  --color-primary-200: hsl(30, 38%, 92%);
+
+  --color-secondary-900: hsl(212, 21%, 14%);
+  --color-secondary-400: hsl(228, 12%, 48%);
+  --color-secondary-100: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--color-primary-200);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--color-secondary-100);
+  width: 33rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card-text * {
+  padding: 0.5rem 0;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+}
+.muted {
+  color: var(--color-secondary-400);
+}
+
+.main-text {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.image {
+  height: 25rem;
+  width: 17rem;
+  border-radius: 10px 0 0 10px;
+}
+
+/* Price */
+.price-info {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-family: "Fraunces", serif;
+  font-size: 1.6rem;
+  color: var(--color-primary-500);
+  margin-right: 1.5rem;
+}
+
+.price-before {
+  font-size: 0.7rem;
+}
+
+/* Button */
+.button-info {
+  display: flex;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary-500);
+  padding: 0.3rem 2rem;
+  border-radius: 7px;
+}
+
+.btn a {
+  color: var(--color-secondary-100);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.cart {
+  height: 1.9rem;
+  margin-right: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
